@@ -14,3 +14,24 @@ Ce projet permet aux utilisateurs de scanner leurs tickets de caisse, d'extraire
 
 ## Structure du Projet
 
+/mon-projet
+  ├── app/
+  │   ├── main.py
+  │   ├── models.py
+  │   ├── database.py
+  │   ├── database_mongo.py
+  │   ├── auth.py
+  │   ├── routes/
+  │   │   ├── user.py
+  │   │   ├── ticket.py
+  │   │   └── brand.py
+  │   ├── services/
+  │   │   └── ocr.py
+  │   ├── utils/
+  │   │   └── helpers.py
+  ├── migrations/              # (si applicable, pour gérer la DB)
+  ├── tests/                   # (si applicable, pour les tests unitaires)
+  ├── venv/                    # (environnement virtuel)
+  ├── .gitignore
+  ├── requirements.txt
+  ├── README.md   <---- **Le fichier README se trouve ici**
